@@ -8,30 +8,41 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+}
+
 .wrapper {
     width: 900px;
     margin: 0 auto;
     font-size: 0;
 }
 
-.site-navigation {
+.page-header {
+    margin-top: 72px;
+    margin-bottom: 98px;
+}
+
+.list {
     vertical-align: middle;
     text-align: center;
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 0px;
     list-style: none;
     font-style: normal;
-    margin-bottom: 98px;
-    margin-top: 72px;
 }
 
-.site-navigation li {
+.list li {
     display: inline-block;
     margin-right: 100px;
 }
 
-.site-navigation li:last-child {
+.list .list-item {
+    font-size: 14px;
+}
+
+.list li:last-child {
     margin-right: 0;
 }
 
@@ -40,8 +51,8 @@ a {
     color: #626262;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.list a:hover,
+.list a:focus {
     color: #03a9f4;
 }
 
@@ -52,20 +63,22 @@ img {
     margin-bottom: 30px;
 }
 
-.id {
+.article {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
+    margin-bottom: 130px;
     font-style: normal;
     text-align: left;
 }
 
-.id:nth-child(2n) {
+.article:nth-child(2n) {
     margin-right: 0;
 }
 
 .signature {
     font-size: 14px;
+    margin: 0;
     margin-bottom: 30px;
     font-style: normal;
     color: #c7c1b6;
@@ -74,6 +87,7 @@ img {
 
 h2 {
     font-size: 30px;
+    margin: 0;
     margin-bottom: 40px;
     color: #626262;
     font-weight: 100;
@@ -81,12 +95,8 @@ h2 {
 
 .text {
     font-size: 14px;
-    margin-bottom: 130px;
-}
-
-.text_2 {
-    font-size: 14px;
-    margin-bottom: 50px;
+    line-height: 24px;
+    margin: 0;
 }
 
 .loader {
@@ -94,6 +104,7 @@ h2 {
 }
 .load {
     display: inline-block;
+    text-align: center;
     margin-bottom: 70px;
     margin-top: 0;
     border: 0;
@@ -109,6 +120,10 @@ h2 {
     border-style: solid;
     border-width: 1px;
     background-color: #ffffff;
+}
+
+button:hover {
+    background-color: #03a9f4;
 }
 
 button {
