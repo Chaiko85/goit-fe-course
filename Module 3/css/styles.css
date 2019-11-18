@@ -8,10 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin: 0;
-}
-
 .wrapper {
     width: 900px;
     margin: 0 auto;
@@ -75,6 +71,20 @@ img {
 .article:nth-child(2n) {
     margin-right: 0;
 }
+
+.article-2 {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 58px;
+    font-style: normal;
+    text-align: left;
+}
+
+.article-2:nth-child(2n) {
+    margin-right: 0;
+}
+
 
 .signature {
     font-size: 14px;
