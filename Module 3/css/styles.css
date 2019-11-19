@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    margin: 0;
+}
+
 .wrapper {
     width: 900px;
     margin: 0 auto;
@@ -15,8 +19,12 @@ html {
 }
 
 .page-header {
-    margin-top: 72px;
-    margin-bottom: 98px;
+    padding-top: 72px;
+    padding-bottom: 98px;
+}
+
+.list-item {
+    text-transform: uppercase;
 }
 
 .list {
@@ -76,7 +84,7 @@ img {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
-    margin-bottom: 58px;
+    margin-bottom: 0;
     font-style: normal;
     text-align: left;
 }
@@ -93,12 +101,13 @@ img {
     font-style: normal;
     color: #c7c1b6;
     text-align: justify;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 30px;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
     color: #626262;
     font-weight: 100;
 }
@@ -113,12 +122,11 @@ h2 {
     text-align: center;
 }
 .load {
-    display: inline-block;
+    display: block;
     text-align: center;
     margin-bottom: 70px;
     margin-top: 0;
-    border: 0;
-    margin: 0;
+    margin: 52px auto;
     padding: 20px 34px;
     background-color: #dddcd7;
     font-size: 20px;
