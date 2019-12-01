@@ -21,8 +21,8 @@ body {
 }
 
 .page-header {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 .container {
@@ -41,11 +41,11 @@ body {
     padding: 0;
     font-size: 14px;
     list-style: none;
-    text-align: right;
     margin-top: 8px;
 }
 
 .list a {
+    display: block;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -55,8 +55,8 @@ body {
 }
 
 .list li {
-    display: inline-block;
-    margin-right: 20px;
+    float: left;
+    margin-right: 28px;
 }
 
 .list li:last-child {
@@ -73,7 +73,7 @@ body {
 }
 
 .logo {
-    display: inline-block;
+    float: left;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -81,6 +81,11 @@ body {
     text-decoration: none;
     font-weight: 300;
     margin: 0;
+}
+
+.logotype {
+    list-style: none;
+    text-decoration: none;
     color: #555252;
 }
 
@@ -106,11 +111,12 @@ body {
 .heading::after {
     content: '';
     position: relative;
-    bottom: 0;
-    top: 24px;
-    left: 465px;
+    bottom: -32px;
+    left: 0;
+    right: 0;
     width: 164px;
-    height: 8px;
+    height: 7px;
+    margin: auto;
     background: #1abc9c;
 }
 
@@ -119,7 +125,6 @@ body {
     float: left;
     display: block;
     margin-right: 30px;
-    margin-bottom: 102px;
 }
 
 .product-list-item:nth-child(-n+4) {
@@ -132,6 +137,7 @@ body {
 
 .product {
     font-size: 0;
+    padding-bottom: 102px;
 }
 
 .product-list-name {
@@ -173,7 +179,6 @@ img {
 
 .news-list {
     width: 350px;
-    height: 498px;
     float: left;
 }
 
@@ -185,6 +190,8 @@ img {
     font-size: 18px;
     line-height: 26px;
     font-weight: 600;
+    margin: 0;
+    margin-top: 14px;
     margin-bottom: 40px;
     display: block;
     position: relative;
@@ -204,15 +211,21 @@ img {
 p {
     font-size: 14px;
     line-height: 26px;
+    margin: 0;
 }
 
 .load {
     padding: 20px 40px;
-    color: #ffffff;
     background-color: #4ec6ab;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin-top: 14px;
+}
+
+.btn {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
 }
