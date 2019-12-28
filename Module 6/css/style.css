@@ -48,7 +48,7 @@ img {
 .site-navigation {
   display: flex;
   justify-content: space-between;
-  width: 490px;
+  min-width: 490px;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -58,6 +58,7 @@ img {
 }
 
 .site-navigation a {
+  display: block;
   position: relative;
   text-decoration: none;
   color: #a2e5d9;
@@ -97,11 +98,11 @@ img {
   line-height: 50px;
   font-weight: bold;
   margin: 0;
-  padding-bottom: 108px;
-  position: relative;
+  padding-bottom: 84px;
 }
 
 .features-title-span {
+  display: block;
   font-family: "Kaushan Script", cursive;
   text-transform: none;
   font-size: 24px;
@@ -111,12 +112,12 @@ img {
 
 .features-title::after {
   content: "";
-  position: absolute;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
   width: 60px;
   height: 3px;
   bottom: 70px;
-  left: 50%;
-  transform: translateX(-50%);
   background-color: #f38181;
 }
 
@@ -136,7 +137,7 @@ img {
   text-transform: uppercase;
   color: #333333;
   margin: 0;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .features-list-item {
@@ -228,7 +229,7 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #333333;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .team-list img {
