@@ -164,7 +164,7 @@ img {
 }
 
 .features-list-item.line_graph::before {
-  content: url(../img/line_graph.png);
+  content: url(../img/LINE_GRAPH.png);
   position: absolute;
   top: 5px;
   left: 22px;
