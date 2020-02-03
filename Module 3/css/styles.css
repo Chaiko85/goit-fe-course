@@ -84,7 +84,7 @@ img {
     display: inline-block;
     width: 420px;
     margin-right: 60px;
-    margin-bottom: 0;
+    margin-bottom: 52px;
     font-style: normal;
     text-align: left;
 }
@@ -124,9 +124,7 @@ h2 {
 .load {
     display: block;
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 0;
-    margin: 52px auto;
+    margin: 0px auto;
     padding: 20px 34px;
     background-color: #dddcd7;
     font-size: 20px;
