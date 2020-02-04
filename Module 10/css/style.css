@@ -170,8 +170,7 @@ img {
   margin-bottom: 92px;
 }
 
-.features__title,
-.team__title {
+.section__title {
   text-transform: uppercase;
   text-align: center;
   color: #333333;
@@ -182,8 +181,7 @@ img {
   padding-bottom: 84px;
 }
 
-.features__title-span,
-.team__title-span {
+.section__title-span {
   display: block;
   font-family: "Kaushan Script", cursive;
   text-transform: none;
@@ -192,8 +190,7 @@ img {
   margin: 0;
 }
 
-.features__title::after,
-.team__title::after {
+.section__title::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -241,27 +238,27 @@ img {
   left: 22px;
 }
 
-.features__list-item.alarm::before {
+.features__list-item--alarm::before {
   content: url(../img/alarm.svg);
 }
 
-.features__list-item.line_graph::before {
+.features__list-item--line_graph::before {
   content: url(../img/line_graph.svg);
 }
 
-.features__list-item.computer::before {
+.features__list-item--computer::before {
   content: url(../img/computer.svg);
 }
 
-.features__list-item.book::before {
+.features__list-item--book::before {
   content: url(../img/book.svg);
 }
 
-.features__list-item.home::before {
+.features__list-item--home::before {
   content: url(../img/home.svg);
 }
 
-.features__list-item.image::before {
+.features__list-item--image::before {
   content: url(../img/image.svg);
 }
 
