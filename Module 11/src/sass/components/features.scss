@@ -38,26 +38,26 @@
   }
 
   &--alarm::before {
-    content: url(../../images/alarm.svg);
+    content: url(../images/alarm.svg);
   }
 
   &--line_graph::before {
-    content: url(../../images/line_graph.svg);
+    content: url(../images/line_graph.svg);
   }
 
   &--computer::before {
-    content: url(../../images/computer.svg);
+    content: url(../images/computer.svg);
   }
 
   &--book::before {
-    content: url(../../images/book.svg);
+    content: url(../images/book.svg);
   }
 
   &--home::before {
-    content: url(../../images/home.svg);
+    content: url(../images/home.svg);
   }
 
   &--image::before {
-    content: url(../../images/image.svg);
+    content: url(../images/image.svg);
   }
 }

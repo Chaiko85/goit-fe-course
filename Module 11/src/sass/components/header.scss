@@ -2,14 +2,14 @@
   max-width: 100%;
   padding: 29px 0 230px;
   margin-bottom: 44px;
-  background-image: url('../../images/Layer15-min.png');
+  background-image: url('../images/Layer15-min.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .header {
-      background-image: url('../../images/Layer15@2x-min.png');
+      background-image: url('../images/Layer15@2x-min.png');
     }
   }
 }
