@@ -1,0 +1,15 @@
+input::placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.input__field {
+  width: 230px;
+  height: 40px;
+  padding: 12px;
+  border: 1px solid #e5e5e5;
+  border-right: none;
+}

@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer__text {
+  font-size: $main-text-size;
+  line-height: $main-text-height;
+  color: $text-color-dark;
+  margin: 0;
+}
+
+.footer__text-2 {
+  color: #fad0d0;
+}
+
+.footer__button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #95e1d3;
+  color: $color-white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: $main-text-height;
+  text-align: center;
+  cursor: pointer;
+}

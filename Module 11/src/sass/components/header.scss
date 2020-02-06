@@ -1,0 +1,121 @@
+.header {
+  max-width: 100%;
+  padding: 29px 0 230px;
+  margin-bottom: 44px;
+  background-image: url('../../images/Layer15-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .header {
+      background-image: url('../../images/Layer15@2x-min.png');
+    }
+  }
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 170px;
+}
+
+.header__logo {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header__logo-link {
+  color: $color-white;
+}
+
+.header__navigation {
+  min-width: 620px;
+  font-size: $main-text-size;
+  line-height: $main-text-height;
+  text-transform: uppercase;
+
+  & a {
+    position: relative;
+    color: $color-white;
+    transition: color 200ms linear;
+  }
+
+  & a:hover,
+  & a:focus {
+    color: #fbdd89;
+    fill: #fbdd89;
+  }
+
+  & a:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fce38a;
+  }
+}
+
+.header__navigation-icon {
+  display: block;
+  width: 20px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  fill: $color-white;
+
+  &:hover,
+  &:focus {
+    color: #fbdd89;
+    fill: #fbdd89;
+  }
+}
+
+.header__text {
+  font-family: $title-font;
+  text-align: center;
+  color: $color-white;
+  font-size: 72px;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.header__title {
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-white;
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 820px;
+  padding-bottom: 126px;
+}
+
+.header__button {
+  display: block;
+  height: 40px;
+  border: 3px solid;
+  text-transform: uppercase;
+  font-size: $main-text-size;
+  cursor: pointer;
+  width: 160px;
+  color: $color-white;
+  background-color: transparent;
+  margin: 0 auto;
+
+  &:hover,
+  &:focus {
+    color: #fbdd8a;
+  }
+}
+

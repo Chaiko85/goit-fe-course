@@ -1,0 +1,16 @@
+.hover__icon {
+  display: block;
+  padding: 15px;
+  width: 56px;
+  height: 56px;
+  fill: #f38181;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &:hover,
+  &:focus {
+    background-color: #f38181;
+    fill: $color-white;
+  }
+}
+
